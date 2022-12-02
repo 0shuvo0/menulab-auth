@@ -25,7 +25,7 @@ html {
   scroll-behavior: smooth;
 }
 
-html, body, body > div {
+html, body, body > div:first-child {
   height: 100%;
   overflow: auto;
 }
