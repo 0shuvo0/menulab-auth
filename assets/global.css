@@ -25,7 +25,7 @@ html {
   scroll-behavior: smooth;
 }
 
-html, body, body > div:first-child {
+html, body, body > div {
   height: 100%;
   overflow: auto;
 }
@@ -400,6 +400,12 @@ input {
 }
 .verify-email-modal .info {
   max-width: 390px;
+}
+
+.verification-input {
+  max-width: 230px;
+  margin: auto;
+  margin-bottom: 1em;
 }
 
 #main {

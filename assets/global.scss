@@ -74,7 +74,6 @@ input{
 .ml-auto{
     margin-left: auto;
 }
-
 .btn{
     display: inline-block;
     background-color: var(--color-primary);
@@ -335,6 +334,17 @@ input{
     }
 }
 
+.verification-input{
+    max-width: 230px;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+
+
+
+
+
 
 
 #main{
@@ -346,6 +356,9 @@ input{
         margin-bottom: var(--container-padding);
     }
 }
+
+
+
 
 // Media queries
 @media(max-width: 1300px){
