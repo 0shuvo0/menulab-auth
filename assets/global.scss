@@ -68,6 +68,9 @@ input{
 .mb-1{
     margin-bottom: 1em;
 }
+.mb-2{
+    margin-bottom: 2em;
+}
 .ml-auto{
     margin-left: auto;
 }
@@ -138,6 +141,9 @@ input{
         align-items: center;
         justify-content: space-between;
         margin-top: 1.5em;
+        &.justify-center{
+            justify-content: center;
+        }
         .link{
             font-weight: 700;
             font-size: 15px;
@@ -190,6 +196,22 @@ input{
         border-radius: 8px;
         height: 44px;
         padding: .5em 1em;
+    }
+}
+.input-group-w-btn{
+    display: flex;
+    justify-content: flex-end;
+    gap: .5em;
+    .input-group{
+        flex-grow: 1;
+        margin-bottom: 0;
+        text-align: left;
+    }
+    .btn{
+        flex-grow: 0;
+        margin-top: auto;
+        height: 44px;
+        padding-inline: 1.5em !important;
     }
 }
 
@@ -263,6 +285,9 @@ input{
         display: inline-block;
         background-color: var(--color-body);
         color: #FAFAFA;
+        .bi-linkedin{
+            font-size: 20px;
+        }
     }
 }
 
@@ -307,7 +332,6 @@ input{
     max-width: 480px !important;
     .info{
         max-width:390px;
-        margin-bottom: 2em;
     }
 }
 
